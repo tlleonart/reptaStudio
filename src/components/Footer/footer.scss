@@ -1,0 +1,81 @@
+.footer {
+  font-family: muli, sans-serif;
+  background-color: #305c46;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  &__main {
+    padding: 60px 0;
+    width: 100%;
+
+    &__row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      &__column {
+        text-align: left;
+        padding: 0 50px;
+        width: 50%;
+
+        &__img {
+          width: 25%;
+        }
+
+        &__title {
+          font-family: "Rajdhani", sans-serif;
+          font-weight: 400;
+          letter-spacing: 1px;
+          margin-bottom: 50px;
+        }
+
+        &__flexContainer {
+          &__contactanos {
+            margin-bottom: 30px;
+          }
+
+          &__data {
+            color: #faaf3d;
+          }
+        }
+      }
+
+      &__block {
+        font-family: "Rajdhani", sans-serif;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin-right: 100px;
+        text-align: left;
+
+        ul {
+          margin: 0;
+          padding: 0;
+          text-indent: none;
+          list-style: none;
+        }
+      }
+    }
+  }
+
+  &__lower {
+    &__container {
+      &__mainlist {
+        margin-bottom: 0;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        &__sec {
+          list-style: none;
+          width: 200px;
+          display: flex;
+          justify-content: space-evenly;
+        }
+      }
+    }
+  }
+}

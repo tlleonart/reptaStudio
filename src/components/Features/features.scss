@@ -1,0 +1,61 @@
+.ricon {
+  font-size: 50px;
+}
+
+.features {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: muli, sans-serif;
+  margin: 30px 0 100px 0;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: muli, sans-serif;
+    font-size: 30px;
+
+    h3 {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    &__data {
+      display: flex;
+      margin-bottom: 20px;
+      font-size: 20px;
+
+      &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 300px;
+        padding: 10px;
+      }
+
+      &__card:hover {
+        box-shadow: inset 0 0 1px black;
+      }
+    }
+
+    &__btn {
+      width: 20%;
+      padding: 15px 15px;
+      border: 1px solid rgba(0, 0, 0, 0.25);
+      background-color: #faaf3d;
+      margin-bottom: 20px;
+      font-size: 1.3rem;
+    }
+
+    &__btn:hover {
+      cursor: pointer;
+      background-color: rgb(251, 77, 77);
+      transition: background-color 300ms linear;
+    }
+  }
+}
